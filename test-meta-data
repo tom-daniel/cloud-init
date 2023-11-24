@@ -1,3 +1,4 @@
+#cloud-config
 instance-id: iid-local01
 local-hostname: example-instance
 hostname: example-hostname
