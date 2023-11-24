@@ -1,9 +1,3 @@
-instance-id: cloud-vm-example-1
-local hostname: cloud-vm
-network:
-  version: 2
-  ethernets:
-    nics:
-      match:
-        name: eth*
-      dhcp4: yes
+instance-id: iid-local01
+local-hostname: example-instance
+hostname: example-hostname
