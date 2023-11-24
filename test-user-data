@@ -1,5 +1,4 @@
 #cloud-config
-
 users:
   - default
   - name: tdaniel
@@ -10,5 +9,4 @@ users:
     lock_passwd: true
     ssh_authorized_keys:
       - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPMWN73jLBLAswgJGge6lUtsO4YWOAMGtRZy9FwFq9tI
-
 package_upgrade: true
